@@ -1,0 +1,106 @@
+/*Core*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Alegreya Sans"
+}
+#main-header {
+  height: 401px;
+  width:auto;
+  border-bottom: 1px solid white;
+}
+#main-header img {
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+}
+#main-header .logo {
+  display: inline-block;
+  margin: 30px;
+  height: 75px;
+  width: 400px;
+  padding-top: 40px;
+  text-align: center;
+  background-color: #eec66d;
+  color: #333;
+  letter-spacing: 3px;
+}
+.navbar ul {
+  text-align: center;
+  background-color:#333;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.navbar li {
+  display: inline;
+  font-size: 20px;
+  padding: 50px;
+  }
+.navbar a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 3px;
+}
+
+body {
+  background: #333;
+}
+
+.picture img {
+  width: 450px;
+  float: right;
+  margin-right: 30px;
+  margin-top: -150px
+}
+
+.content-text {
+  height: 400px;
+  width: 900px;
+  background-color: #eec66D;
+  margin-left: 20%;
+  border-radius: 8px;
+}
+
+.content-text h2, h4{
+  font-family: "Lobster", cursive;
+}
+
+.content-text h2 {
+  text-align: center;
+  margin: 30px;
+  padding-top: 20px;
+  font-size: 40px;
+  color: #333;
+}
+
+.content-text h4 {
+  text-align: center;
+  color: #333;
+  font-size: 25px;
+}
+
+.content-text p {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.btn {
+  display: inline;
+  height: 75px;
+  width: 350px;
+  /*fix alignment*/
+}
+
+.social {
+  height: 200px;
+  width: auto;
+  text-align:center;
+}
+
+.fa-facebook-f {
+  padding: 20px;
+  background-color: white;
+  border-radius:;
+}
