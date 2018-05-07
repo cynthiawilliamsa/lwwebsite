@@ -11,19 +11,34 @@
 </head>
 <body>
   <div class="grid">
-  <header id="main-header" class="main-head">
-      <img src="images/showcase3.jpg">
-      <h1 class= "logo" "logo-secondardy">Laura Walker, C.P.C. | <span> About</span></h1>
-      <nav class="navbar">
-        <ul>
-          <li><a href="./index.html"> | Home |</li></a>
-          <li><a href="./about.html"> | About |</li></a>
-          <li><a href="./services.html"> | Services |</li></a>
-          <li><a href="./contact.html"> | Contact |</li></a>
-        </ul>
-      </nav>
+    <header id="main-header" class="main-head">
+      <img src="./images/showcase3.jpg" class="background">
+      <h1 class="logo">Laura Walker, C.P.C.</h1>
+  <nav class="navbar">
+      <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+          <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+          </svg>
+        </a>
+      </span>
+      <ul class="navbar-nav">
+        <li><a href="./index.html">| Home |</a></li>
+        <li><a href="./about.html">| About |</a></li>
+        <li><a href="./services.html">| Services |</a></li>
+        <li><a href="./contact.html">| Contact |</a></li>
+      </ul>
+    </nav>
+    <div id="side-menu" class="side-nav">
+      <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./services.html">Services</a>
+      <a href="./contact.html">Contact</a>
     </div>
-  </header>
+    </header>
   <main id="main-content">
     <section class="about-content">
       <div class="pimg7">
@@ -37,7 +52,7 @@
       </section>
       <div class="pimg2">
         <div class="ptext">
-          <span class="border">Why Work with a Personal Coach?</span>
+          <span class="border">Why a Personal Coach?</span>
         </div>
       </div>
       <section class="section-services section-dark">
@@ -79,5 +94,13 @@
   </div>
   </div>
 </footer>
+<script>
+  function openSlideMenu(){
+    document.getElementById('side-menu').style.width= '175px';
+  }
+  function closeSlideMenu(){
+    document.getElementById('side-menu').style.width= '0';
+  }
+</script>
 </body>
 </html>

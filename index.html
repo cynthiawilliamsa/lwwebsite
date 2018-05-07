@@ -11,18 +11,34 @@
 </head>
 <body class="index">
   <div class="grid">
-  <header id="main-header" class="main-head">
-      <img src="images/showcase3.jpg" class="background">
+    <header id="main-header" class="main-head">
+      <img src="./images/showcase3.jpg" class="background">
       <h1 class="logo">Laura Walker, C.P.C.</h1>
-      <nav class="navbar">
-        <ul>
-          <li><a href="./index.html">| Home |</li></a>
-          <li><a href="./about.html">| About |</li></a>
-          <li><a href="./services.html">| Services |</li></a>
-          <li><a href="./contact.html">| Contact |</li></a>
-        </ul>
-      </nav>
-  </header>
+  <nav class="navbar">
+      <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+          <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+          </svg>
+        </a>
+      </span>
+      <ul class="navbar-nav">
+        <li><a href="./index.html">| Home |</a></li>
+        <li><a href="./about.html">| About |</a></li>
+        <li><a href="./services.html">| Services |</a></li>
+        <li><a href="./contact.html">| Contact |</a></li>
+      </ul>
+    </nav>
+    <div id="side-menu" class="side-nav">
+      <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./services.html">Services</a>
+      <a href="./contact.html">Contact</a>
+    </div>
+    </header>
   <main id="main-content">
     <section class="index-content">
       <div class="pimg1">
@@ -59,17 +75,6 @@
         </div>
       </div>
 
-
-    <!--
-    <div class="content-text">
-      <h2>Take a Chance...</h2>
-      <h4>Because you never know how asolutely perfect something could turn out to be.</h4>
-      <p>Click the button below to schedule your free ## minute consultation with Laura.</p>
-      <div class="action">
-        <button class="btn">Schedule Consultation</button>
-      </div>
-    </div>
-    </section> -->
     <section class="content2">
   <div class="social">
         <a href="https://www.facebook.com/lwalkercpc"><i class="fab fa-facebook-f fa-2x"></i></a>
@@ -92,5 +97,13 @@
   </div>
 </footer>
 </div>
+<script>
+  function openSlideMenu(){
+    document.getElementById('side-menu').style.width= '175px';
+  }
+  function closeSlideMenu(){
+    document.getElementById('side-menu').style.width= '0';
+  }
+</script>
 </body>
 </html>
