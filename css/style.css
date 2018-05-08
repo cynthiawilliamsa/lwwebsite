@@ -1,68 +1,67 @@
+/*core*/
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Alegreya Sans"
 }
+
 #main-header {
+  background-image: url('../images/showcase3.jpg');
+  position: relative;
+  opacity: 0.70;
   height: 250px;
   background-size: cover;
+  background-repeat: no-repeat;
   border-bottom: 1px solid white;
 }
-#main-header img {
-  position: absolute;
-  opacity: 0.70;
-  z-index: -1;
-}
+
 #main-header .logo {
   display: inline-block;
-  margin: 30px;
+  margin: 15px;
   height: 75px;
   width: 550px;
   padding-top: 40px;
   text-align: center;
   background-color: #eec66d;
-  opacity: 0.70;
   color: #333;
-  font-weight: 600px;
   letter-spacing: 3px;
+  opacity: 0.90;
 }
+
 .logo {
   font-family: "Alegreya Sans", Arial;
   font-size: 37px;
 }
+
 .logo span {
   color: white;
   font-size: 26px;
 }
 
-#main-header {
-  height: 250px;
-  background-size: cover;
-  border-bottom: 1px solid white;
-}
+/*navigation all */
 
 .navbar {
   background-color: #333;
   opacity: 0.70;
-  overflow:hidden;
+  overflow: hidden;
   height: 40px;
 }
 
 .navbar a {
-  float:left;
+  float: left;
   display: block;
   color: white;
   text-align: center;
-  background-color:#333;
+  background-color: #333;
   text-decoration: none;
   padding 14px 18px:
-
 }
+
 .navbar ul {
   margin: 6px 0 0 0;
   text-align: center;
-  background-color:#333;
+  background-color: #333;
   opacity: 0.70;
 }
 
@@ -73,18 +72,20 @@
   list-style: none;
   letter-spacing: 5px;
 }
+
 .navbar-nav a:hover {
   background-color: #ddd;
   color: #000;
-
 }
+
+/*side nav for slide menu on small screens */
 
 .side-nav {
   height: 30%;
   width: 0;
   position: fixed;
   z-index: 1;
-  top:220px;
+  top: 0;
   left: 0;
   background-color: #333;
   opacity: 0.9;
@@ -96,17 +97,22 @@
 svg {
   margin-left: 20px;
   margin-top: 5px;
-  opacity: 0.7;
+  opacity: 0.75;
 }
 
 .side-nav a {
   display: block;
-  padding: 10px 10px 10px 30px;
-  text-decoration:none;
+  padding: 5px 5px 5px 30px;
+  text-decoration: none;
   font-size: 20px;
-  color:#fff;
+  color: #fff;
   opacity: 0.70;
   transition: 0.3s;
+}
+
+.side-nav a:hover {
+  background-color: white;
+  color: #222;
 }
 
 .side-nav .btn-close {
@@ -116,16 +122,13 @@ svg {
   font-size: 36px;
   margin-left: 50px;
 }
-#main-content {
-  transition:margin-left 0.5s;
-  overflow: hidden;
-  width: 100%;
-}
+
+/*social section all pages */
 
 .social {
   height: 200px;
   width: auto;
-  text-align:center;
+  text-align: center;
   background-color: #333;
   border-top: 2px solid white;
 }
@@ -134,11 +137,14 @@ svg {
   padding: 30px;
   color: white;
 }
+
 .social a {
   display: inline-block;
   position: relative;
-  top: 40%;
+  top: 25%;
 }
+
+/*footer all pages*/
 
 #main-footer {
   height: 75px;
@@ -148,6 +154,7 @@ svg {
 .contacts ul {
   text-align: center;
 }
+
 .contacts li {
   /* display: inline-block; */
   list-style: none;
@@ -158,6 +165,7 @@ svg {
   margin-top: 10px;
   color: #333;
 }
+
 .copy h5 {
   text-align: center;
   color: #333;
@@ -168,165 +176,169 @@ svg {
   margin-left: 15px;
   font-size: 18px;
   color: #333;
-  }
+}
 
-  .contacts span {
-    font-family: "Alegreya Sans"
-  }
+.contacts span {
+  font-family: "Alegreya Sans"
+}
 
-  /*index page*/
-  .index, .main-content{
-    height: 100%;
-    margin: 0;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.8em;
-  }
+/*index page*/
 
-  .section-index {
-    text-align: center;
-    padding: 80px 80px;
-    letter-spacing: 2px;
-  }
+.index, .main-content {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8em;
+}
 
-  .border h2, .section-index h4 {
-    font-family: "Lobster"; cursive;
-  }
+.section-index {
+  text-align: center;
+  padding: 80px 80px;
+  letter-spacing: 2px;
+}
 
-  .section-index h4 {
-    font-size: 30px;
-    padding: 15px;
-  }
-  .first-box p {
-    font-size 14px;
-  }
+.section-index h4 {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  padding: 15px;
+}
 
-  .action .btn {
-    height: 50px;
-    width: 400px;
-    margin-top: 20px;
-    background-color: #Ac7b40
-  }
+.first-box p {
+  font-size 14px;
+}
 
-  button {
-    letter-spacing: 6px;
-    Font-size: 22px;
-    Font-weight: 600;
-    border: 3px solid #333;
-  }
+.action .btn {
+  height: 50px;
+  width: 400px;
+  margin-top: 20px;
+  background-color: #Ac7b40
+}
 
-  .btn a {
-    text-decoration: none;
-    color: white;
-  }
+button {
+  letter-spacing: 6px;
+  Font-size: 22px;
+  Font-weight: 600;
+  border: 3px solid #333;
+}
 
-  .btn:hover {
-    background: #333;
-    border: 3px solid white;
-  }
+.btn a {
+  text-decoration: none;
+  color: white;
+}
 
-  /*about page */
-  .about-content {
-    background-color: #333;
-  }
+.btn:hover {
+  background: #333;
+  border: 3px solid white;
+}
 
-  div .about-me{
-    padding-top; 10px;
-  }
+/*about page */
+
+.about-content {
+  background-color: #333;
+
+}
+
+.pimg7 .ptext{
+  margin-top: 51px;
+}
 
 
-  /*services page */
+/*services page */
 
-  .services-pg, .main-content{
-    height: 100%;
-    margin: 0;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.8em;
-  }
+.services-pg, .main-content {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8em;
+}
 
-  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6{
-    position: relative;
-    opacity: 0.70;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6 {
+  position: relative;
+  opacity: 0.50;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
-  .pimg7 {
-    height: 500px;
-    position: relative;
-    opacity: 0.80;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-  }
+.pimg7 {
+  height: 400px;
+  position: relative;
+  opacity: 0.80;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
 
-  .pimg1 {
-    background-image: url('../images/pimg1.jpeg');
-    min-height: 300px;
-  }
+.pimg1 {
+  background-image: url('../images/pimg1.jpeg');
+  min-height: 300px;
+}
 
-  .pimg2 {
-    background-image: url('../images/pimg2.jpeg');
-    min-height: 300px;
-  }
-  .pimg3 {
-    background-image: url('../images/pimg3.jpg');
-    min-height: 300px;
-  }
-  .pimg4 {
-    background-image: url('../images/pimg4.jpeg');
-    min-height: 300px;
-  }
+.pimg2 {
+  background-image: url('../images/pimg2.jpeg');
+  min-height: 300px;
+}
 
-  .pimg5 {
-    background-image: url('../images/pimg5.jpg');
-    min-height: 300px;
-  }
-  .pimg6 {
-    background-image: url('../images/pimg6.jpeg');
-    min-height: 300px;
-  }
-  .pimg7 {
-    background-image: url('../images/pimg7.jpg');
-    min-height: 300px;
+.pimg3 {
+  background-image: url('../images/pimg3.jpg');
+  min-height: 300px;
+}
 
-  }
+.pimg4 {
+  background-image: url('../images/pimg4.jpeg');
+  min-height: 300px;
+}
 
-  .section-services {
-    text-align: center;
-    padding: 50px 80px;
-    letter-spacing: 2px;
-  }
+.pimg5 {
+  background-image: url('../images/pimg5.jpg');
+  min-height: 300px;
+}
 
-  .section-light {
-    background-color: #eec66d;
-    color: #333;
-  }
+.pimg6 {
+  background-image: url('../images/pimg6.jpeg');
+  min-height: 300px;
+}
 
-  .section-dark {
-    background-color: #333;
-    color: white;
-  }
+.pimg7 {
+  background-image: url('../images/pimg7.jpg');
+  min-height: 300px;
+}
 
-  .ptext {
-    position: absolute;
-    top: 70%;
-    width: 100%;
-    text-align: center;
-    color: white;
-    font-weight: 400;
-    font-size: 27px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-  }
+.section-services {
+  text-align: center;
+  padding: 50px 80px;
+  letter-spacing: 2px;
+}
 
-.ptext .border{
+.section-light {
+  background-color: #eec66d;
+  color: #333;
+}
+
+.section-dark {
+  background-color: #333;
+  color: white;
+}
+
+.ptext {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
   background-color: #333;
   padding: 15px;
-  opacity: 0.70;
+  opacity: 0.80;
 }
 
 /*contact page */
@@ -340,377 +352,65 @@ svg {
   height: 400px;
 }
 
+/*responsive css */
 
-@media(max-width: 568px){
-  .navbar-nav{
-    display:none;
+@media(max-width: 568px) {
+  .navbar-nav {
+    display: none;
   }
-
   #main-header .logo {
     width: auto;
     height: 55px;
     text-align: center;
   }
   .logo {
-      font-size: 26px;
-      font-family: "Alegreya Sans", cursive;
-      padding: 0 10px 10px 10px;
+    font-size: 26px;
+    font-family: "Alegreya Sans", cursive;
+    padding: 0 10px 10px 10px;
+  }
 
-    }
+  .section-index h4 {
+    font-size: 20px;
+  }
 
-    .pimg7 {
-      background-image: url('../images/pimg74.jpg');
+  /*about.html*/
 
-    }
+  .pimg7 {
+    background-image: url('../images/pimg74.jpg');
+  }
 
+  .pimg7 .ptext {
+    margin-top: 35px;
+  }
+
+
+  /*index, about, services, contact*/
+  }
   .pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
     background-attachment: scroll;
   }
-
   .ptext {
     font-size: 18px;
     letter-spacing: 1px;
   }
-
-.ptext .border {
-    background-color: none;
-  }
-.action .btn {
-  width: 200px;
-}
-button {
-  font-size: 14px;
-}
-
-.social {
-  height: 150px;
-}
-.social a {
-  top: 20%;
-}
-}
-@media(min-width: 568px){
-  .open-slide{display:none}
-}
-
-}
-
-
-
-
-/*Core
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Alegreya Sans"
-}
-#main-header {
-  height: 250px;
-  background-size: cover;
-  border-bottom: 1px solid white;
-}
-#main-header img {
-  position: absolute;
-  opacity: 0.70;
-  z-index: -1;
-}
-#main-header .logo {
-  display: inline-block;
-  margin: 30px;
-  height: 75px;
-  width: 550px;
-  padding-top: 40px;
-  text-align: center;
-  background-color: #eec66d;
-  opacity: 0.70;
-  color: #333;
-  font-weight: 600px;
-  letter-spacing: 3px;
-}
-.logo {
-  font-family: "Lobster", cursive;
-  font-size: 37px;
-}
-.logo span {
-  color: white;
-  font-size: 26px;
-}
-
-.open-slide {
-  z-index: 1;
-}
-/* .navbar ul {
-  text-align: center;
-  background-color:#333;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  opacity: 0.70;
-}
-.navbar li {
-  display: inline;
-  font-size: 20px;
-  padding: 50px;
-  }
-.navbar a {
-  text-decoration: none;
-  color: white;
-  letter-spacing: 3px;
-}
-
-.social {
-  height: 200px;
-  width: auto;
-  text-align:center;
-  background-color: #333;
-  border-top: 2px solid white;
-}
-
-.fa-facebook-f, .fa-instagram, .fa-linkedin-in {
-  padding: 30px;
-  color: white;
-}
-.social a {
-  display: inline-block;
-  position: relative;
-  top: 40%;
-}
-
-#main-footer {
-  height: 75px;
-  background-color: white;
-}
-
-.contacts ul {
-  text-align: center;
-}
-.contacts li {
-  /* display: inline-block;
-  list-style: none;
-}
-
-.contacts h3 {
-  text-align: center;
-  margin-top: 10px;
-  color: #333;
-}
-.copy h5 {
-  text-align: center;
-  color: #333;
-  padding-top: 10px;
-}
-
-.contacts i {
-  margin-left: 15px;
-  font-size: 18px;
-  color: #333;
-  }
-
-  .contacts span {
-    font-family: "Alegreya Sans"
-  }
-
-  /*index page
-  .index, .main-content{
-    height: 100%;
-    margin: 0;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.8em;
-  }
-
-  .section-index {
-    text-align: center;
-    padding: 80px 80px;
-    letter-spacing: 2px;
-  }
-
-  .border h2, .section-index h4 {
-    font-family: "Lobster"; cursive;
-  }
-
-  .section-index h4 {
-    font-size: 30px;
-    padding: 15px;
-  }
-  .first-box p {
-    font-size 14px;
-  }
-
-  .action .btn {
-    height: 50px;
-    width: 400px;
-    margin-top: 20px;
-    background-color: #Ac7b40
-  }
-
-  button {
-    letter-spacing: 6px;
-    Font-size: 22px;
-    Font-weight: 600;
-    border: 3px solid #333;
-  }
-
-  .btn a {
-    text-decoration: none;
-    color: white;
-  }
-
-  .btn:hover {
-    background: #333;
-    border: 3px solid white;
-  }
-
-  /*about page
-  .about-content {
-    background-color: #333;
-  }
-
-  div .about-me{
-    padding-top; 10px;
-  }
-
-
-  /*services page
-
-  .services-pg, .main-content{
-    height: 100%;
-    margin: 0;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.8em;
-  }
-
-  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6{
-    position: relative;
-    opacity: 0.70;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-
-  .pimg7 {
-    height: 500px;
-    position: relative;
-    opacity: 0.80;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-  }
-
-  .pimg1 {
-    background-image: url('../images/pimg1.jpeg');
-    min-height: 300px;
-  }
-
-  .pimg2 {
-    background-image: url('../images/pimg2.jpeg');
-    min-height: 300px;
-  }
-  .pimg3 {
-    background-image: url('../images/pimg3.jpg');
-    min-height: 300px;
-  }
-  .pimg4 {
-    background-image: url('../images/pimg4.jpeg');
-    min-height: 300px;
-  }
-
-  .pimg5 {
-    background-image: url('../images/pimg5.jpg');
-    min-height: 300px;
-  }
-  .pimg6 {
-    background-image: url('../images/pimg6.jpeg');
-    min-height: 300px;
-  }
-  .pimg7 {
-    background-image: url('../images/pimg7.jpg');
-    min-height: 300px;
-
-  }
-
-  .section-services {
-    text-align: center;
-    padding: 50px 80px;
-    letter-spacing: 2px;
-  }
-
-  .section-light {
-    background-color: #eec66d;
-    color: #333;
-  }
-
-  .section-dark {
-    background-color: #333;
-    color: white;
-  }
-
-  .ptext {
-    position: absolute;
-    top: 70%;
-    width: 100%;
-    text-align: center;
-    color: white;
-    font-weight: 400;
-    font-size: 27px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-  }
-
-
-
-.ptext .border{
-  background-color: #333;
-  padding: 15px;
-  opacity: 0.70;
-}
-
-/*contact page
-
-.calendar img {
-  width: 100%;
-  height: auto;
-}
-
-.section-contact {
-  height: 400px;
-}
-
-@media (max-width: 568px) {
-
-  #main-header .logo {
-    width: 270px;
-  }
-  .logo {
-      font-size: 28px;
-      font-family: "Lobster", cursive;
-    }
-
-  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
-    background-attachment: scroll;
-  }
-
-  .ptext {
-    font-size: 16px;
-    letter-spacing: 3px;
-  }
-
   .ptext .border {
     background-color: none;
   }
-.action .btn {
-  width: 200px;
+  .action .btn {
+    width: 200px;
+  }
+  button {
+    font-size: 14px;
+  }
+  .social {
+    height: 150px;
+  }
+  .social a {
+    top: 20%;
+  }
 }
-button {
-  font-size: 14px;
+@media(min-width: 568px) {
+  .open-slide {
+    display: none
+  }
 }
-
-.social {
-  height: 150px;
-}
-.social a {
-  top: 20%;
-}
-}*/
