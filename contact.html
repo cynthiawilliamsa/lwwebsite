@@ -11,7 +11,8 @@
 </head>
 <body>
   <div class="grid">
-    <header id="main-header" class="main-head">      
+    <!--Header content-->
+    <header id="main-header" class="main-head">
       <h1 class="logo">Laura Walker, C.P.C.</h1>
   <nav class="navbar">
       <span class="open-slide">
@@ -30,6 +31,7 @@
         <li><a href="./contact.html">| Contact |</a></li>
       </ul>
     </nav>
+    <!--side nav for screen less than 568px-->
     <div id="side-menu" class="side-nav">
       <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
       <a href="./index.html">Home</a>
@@ -38,37 +40,50 @@
       <a href="./contact.html">Contact</a>
     </div>
     </header>
+    <!--main page content-->
   <main id="main-content">
     <section class="services-content">
+      <!--contact section-->
       <div class="pimg6">
         <div class="ptext">
           <span class="border">Let's Get Started!</span>
         </div>
       </div>
       <section class="section-contact section-light">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nam voluptate temporibus alias, ullam illum adipisci placeat laudantium officia mollitia ad tempore nisi! Rem libero sit, ut. Quaerat amet ut inventore quia commodi at excepturi tempora officia. Sit facilis reprehenderit iure. Vero optio, expedita, voluptatum, laborum fuga laboriosam dolore adipisci nulla illo hic et officiis iste! Ducimus beatae suscipit maiores!</p>
+        <h3>Contact Laura today to learn more!</h3>
+        <br>
+        <ul>
+          <li><i class="fas fa-phone fa-2x"><span> 817-689-5565</span></i></li>
+          <li><i class="fas fa-envelope fa-2x"><span> lkwalkercpc@gmail.com</span></i></li>
+        </ul>
       </section>
+      <!--img repeat-->
       <div class="pimg6">
         <div class="ptext">
           <span class="border">Laura Walker C.P.C.</span>
         </div>
       </div>
+      <!--social-->
   <section class="content2">
-  <div class="social">
-    <div class="row">
+    <div class="row middle-xs middle-sm middle-md middle-lg">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="social">
         <a href="https://www.facebook.com/lwalkercpc"><i class="fab fa-facebook-f fa-2x"></i></a>
         <a href="https://www.linkedin.com/in/laura-k-walker-c-p-c-ba-2bba0884/"><i class="fab fa-linkedin-in fa-2x"></i></a>
         <a href="https://www.instagram.com/love_ur_life_txgal/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
     </div>
+  </div>
   </section>
   </main>
+  <!--footer-->
 <footer id="main-footer" class="footer">
 
     <div class="contacts">
       <h3>Contact Me</h3>
       <ul>
       <li><i class="fas fa-phone"><span> 817-689-5565</span></i></li>
-      <li><i class="fas fa-envelope"><span> lkwalkercpc@gmail.com</span></i></li
+      <li><i class="fas fa-envelope"><span> lkwalkercpc@gmail.com</span></i></li>
       </ul>
     </div>
   <div class="copy">
@@ -76,6 +91,7 @@
   </div>
   </div>
 </footer>
+<!--JS for open/close side nav-->
 <script>
   function openSlideMenu(){
     document.getElementById('side-menu').style.width= '175px';

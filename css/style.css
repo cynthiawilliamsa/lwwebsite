@@ -1,10 +1,11 @@
-/*core*/
 
+/*css reset*/
 * {
   margin: 0;
   padding: 0;
   font-family: "Alegreya Sans"
 }
+/*core*/
 
 #main-header {
   background-image: url('../images/showcase3.jpg');
@@ -123,135 +124,7 @@ svg {
   margin-left: 50px;
 }
 
-/*social section all pages */
-
-.social {
-  height: 200px;
-  width: auto;
-  text-align: center;
-  background-color: #333;
-  border-top: 2px solid white;
-}
-
-.fa-facebook-f, .fa-instagram, .fa-linkedin-in {
-  padding: 30px;
-  color: white;
-}
-
-.social a {
-  display: inline-block;
-  position: relative;
-  top: 25%;
-}
-
-/*footer all pages*/
-
-#main-footer {
-  height: 75px;
-  background-color: white;
-}
-
-.contacts ul {
-  text-align: center;
-}
-
-.contacts li {
-  /* display: inline-block; */
-  list-style: none;
-}
-
-.contacts h3 {
-  text-align: center;
-  margin-top: 10px;
-  color: #333;
-}
-
-.copy h5 {
-  text-align: center;
-  color: #333;
-  padding-top: 10px;
-}
-
-.contacts i {
-  margin-left: 15px;
-  font-size: 18px;
-  color: #333;
-}
-
-.contacts span {
-  font-family: "Alegreya Sans"
-}
-
-/*index page*/
-
-.index, .main-content {
-  height: 100%;
-  margin: 0;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.8em;
-}
-
-.section-index {
-  text-align: center;
-  padding: 80px 80px;
-  letter-spacing: 2px;
-}
-
-.section-index h4 {
-  font-family: "Lobster", cursive;
-  font-size: 30px;
-  padding: 15px;
-}
-
-.first-box p {
-  font-size 14px;
-}
-
-.action .btn {
-  height: 50px;
-  width: 400px;
-  margin-top: 20px;
-  background-color: #Ac7b40
-}
-
-button {
-  letter-spacing: 6px;
-  Font-size: 22px;
-  Font-weight: 600;
-  border: 3px solid #333;
-}
-
-.btn a {
-  text-decoration: none;
-  color: white;
-}
-
-.btn:hover {
-  background: #333;
-  border: 3px solid white;
-}
-
-/*about page */
-
-.about-content {
-  background-color: #333;
-}
-
-.pimg7 .ptext{
-  margin-top: 51px;
-}
-
-
-/*services page */
-
-.services-pg, .main-content {
-  height: 100%;
-  margin: 0;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.8em;
-}
+/*main-content all pages*/
 
 .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6 {
   position: relative;
@@ -337,7 +210,150 @@ button {
 .ptext .border {
   background-color: #333;
   padding: 15px;
-  opacity: 0.80;
+  opacity: 0.95;
+}
+
+/*social section all pages */
+
+.social {
+  height: 150px;
+  width: auto;
+  text-align: center;
+  background-color: #333;
+  border-top: 2px solid white;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-linkedin-in {
+  padding: 50px 40px;
+  color: white;
+}
+
+/*footer all pages*/
+
+#main-footer {
+  height: 75px;
+  background-color: white;
+}
+
+.contacts ul {
+  text-align: center;
+}
+
+.contacts li {
+  list-style: none;
+}
+
+.contacts h3 {
+  text-align: center;
+  margin-top: 10px;
+  color: #333;
+}
+
+.copy h5 {
+  text-align: center;
+  color: #333;
+  padding-top: 10px;
+}
+
+.contacts i {
+  margin-left: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.contacts span {
+  font-family: "Alegreya Sans"
+}
+
+/*index page*/
+
+.index, .main-content {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+.section-index {
+  text-align: center;
+  padding: 80px 80px;
+  letter-spacing: 2px;
+}
+
+.section-index h4 {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  padding: 15px;
+}
+
+.first-box p {
+  font-size 14px;
+}
+
+.action .btn {
+  height: 50px;
+  width: 400px;
+  margin-top: 20px;
+  background-color: #Ac7b40
+}
+
+button {
+  letter-spacing: 6px;
+  Font-size: 22px;
+  Font-weight: 600;
+  border: 3px solid #333;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  background: #333;
+  border: 3px solid white;
+}
+.section-index h3 {
+  font-size: 20px;
+}
+.section-index ul{
+  list-style: none;
+}
+.section-index li {
+  line-height: 2em;
+}
+
+/*about page */
+
+.about-content {
+  background-color: #333;
+}
+
+.pimg7 .ptext{
+  margin-top: 51px;
+}
+.about-text {
+  line-height: 2em;
+}
+
+.about-first {
+  font-size: 16px;
+  line-height: 2em;
+}
+
+.about-second {
+  font-size: 20px;
+}
+
+/*services page */
+
+.services-pg, .main-content {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8em;
 }
 
 /*contact page */
@@ -347,8 +363,31 @@ button {
   height: auto;
 }
 
+.section-contact h3 {
+  display:inline-block;
+  margin-top: 20px;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
 .section-contact {
-  height: 400px;
+  height: 250px;
+  text-align: center;
+  opacity: 0.90;
+}
+
+.section-contact ul {
+  display:inline-block;
+  margin-top: 50px;
+  list-style: none;
+}
+.section-contact li {
+  position: relative;
+  padding: 8px 0;
+}
+
+.section-contact span {
+  color: white;
+  letter-spacing: 3px;
 }
 
 /*responsive css */
@@ -372,7 +411,7 @@ button {
     font-size: 20px;
   }
 
-  /*about.html*/
+  /*about.html specific*/
 
   .pimg7 {
     background-image: url('../images/pimg74.jpg');
@@ -382,7 +421,7 @@ button {
     margin-top: 35px;
   }
 
-  /*index, about, services, contact*/
+  /*index, about, services, contact specific*/
 
   .pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
     background-attachment: scroll;
@@ -405,6 +444,10 @@ button {
   }
   .social a {
     top: 20%;
+  }
+  /*contact page*/
+  .section-contact li {
+    font-size: 12px;
   }
 }
 @media(min-width: 568px) {

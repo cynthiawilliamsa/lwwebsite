@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +9,9 @@
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Lobster" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body class="index">
   <div class="grid">
+    <!--Header content-->
     <header id="main-header" class="main-head">
       <h1 class="logo">Laura Walker, C.P.C.</h1>
       <nav class="navbar">
@@ -32,6 +31,7 @@
           <li><a href="./contact.html">| Contact |</a></li>
         </ul>
       </nav>
+      <!--side nav for screen less than 568px-->
       <div id="side-menu" class="side-nav">
         <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
         <a href="./index.html">Home</a>
@@ -40,8 +40,10 @@
         <a href="./contact.html">Contact</a>
       </div>
     </header>
+    <!--main page content-->
     <main id="main-content">
-      <section class="index-content">
+        <section class="index-content">
+        <!--section 1-->
         <div class="pimg1">
           <div class="ptext">
             <span class="border top-box">Take a Chance...</span>
@@ -54,40 +56,58 @@
             <button class="btn"><a href="#">Free Sample Session</a></button>
           </div>
         </section>
+        <!--section 2-->
         <div class="pimg2">
           <div class="ptext">
             <span class="border">Your Journey. Your Truth.</span>
           </div>
         </div>
         <section class="section-index section-dark">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum perferendis minima cum assumenda a porro, iste consectetur natus dolorum sunt aliquid culpa quas deserunt perspiciatis amet soluta voluptate nemo dolores ratione iusto ullam
-            dicta libero. Praesentium ab alias fugit totam placeat neque hic pariatur id sapiente eaque distinctio accusamus voluptate debitis sit odio quas, maiores quasi facilis rerum culpa quo asperiores, fugiat, doloremque! Neque inventore nesciunt
-            dolorem nobis quis obcaecati, cum ipsa ducimus dicta corporis. Suscipit, excepturi unde at dolorum dolores dolore vitae soluta explicabo illo reiciendis nesciunt, omnis minima ad modi! Iste in veritatis necessitatibus, quam itaque repellat.
-            Totam.</p>
+          <h4>The journey begins with you.</h4>
+          <br>
+          <h3>Breaking free, becoming unstuck and reclaiming your true path in life is possible!</h3>
         </section>
+        <!--section 3-->
         <div class="pimg3">
           <div class="ptext">
-            <span class="border">Quotes</span>
+            <span class="border">Ask Yourself These Questions...</span>
           </div>
         </div>
         <section class="section-index section-light">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eum nemo excepturi similique temporibus vitae voluptate impedit, sunt doloremque cum, veniam molestias velit deleniti dolor sint? Unde aspernatur molestiae earum aut veritatis blanditiis,
-            deleniti, nisi cum ab ullam, nesciunt quaerat quasi reiciendis sunt iure ducimus tempora saepe animi perspiciatis consequuntur?</p>
+          <h3>If the answer is yes to any of these questions, working with a Personal Coach might be right for you!</h3>
+          <br>
+          <ul>
+            <li>Have you just finalized your divorce and wonder, now what?</li>
+            <li>Are you going through a major transition period in your life?</li>
+            <li>Do you want to find happiness or need to make a change in your life?</li>
+            <li>Do you just want someone to hear you?</li>
+            <li>Are you seeking a better quality of life?  Peach]e of mind? Simplicity or joy?</li>
+            <li>Do you fee lik you do not have any control over your life?</li>
+            <li>Do you feel exhausted/stressed out constantly?</li>
+            <li>Have you lost all balance, focus and clairty in your life?</li>
+            <li>Do you feel like you are just going through the motions?</li>
+            <li>Do you have a dream but no one to hold you accountable?</li>
+          </ul>
         </section>
         <div class="pimg1">
           <div class="ptext">
             <span class="border">Laura Walker, C.P.C.</span>
           </div>
         </div>
-
+        <!--social media section-->
         <section class="content2">
-          <div class="social">
-            <a href="https://www.facebook.com/lwalkercpc"><i class="fab fa-facebook-f fa-2x"></i></a>
-            <a href="https://www.linkedin.com/in/laura-k-walker-c-p-c-ba-2bba0884/"><i class="fab fa-linkedin-in fa-2x"></i></a>
-            <a href="https://www.instagram.com/love_ur_life_txgal/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+          <div class="row middle-xs middle-sm middle-md middle-lg">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <div class="social">
+              <a href="https://www.facebook.com/lwalkercpc"><i class="fab fa-facebook-f fa-2x"></i></a>
+              <a href="https://www.linkedin.com/in/laura-k-walker-c-p-c-ba-2bba0884/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+              <a href="https://www.instagram.com/love_ur_life_txgal/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+              </div>
           </div>
+        </div>
         </section>
     </main>
+    <!--footer-->
     <footer id="main-footer" class="footer">
       <div class="contacts">
         <h3>Contact Me</h3>
@@ -102,6 +122,7 @@
   </div>
   </footer>
   </div>
+  <!--JS for opening and closing side-nav-->
   <script>
     function openSlideMenu() {
       document.getElementById('side-menu').style.width = '175px';
@@ -112,5 +133,4 @@
     }
   </script>
 </body>
-
 </html>
