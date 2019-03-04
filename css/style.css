@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Alegreya Sans"
+  font-family: "Alegreya Sans";
 }
 /*core*/
 
@@ -123,6 +123,10 @@ svg {
   font-size: 36px;
   margin-left: 50px;
 }
+.action>span {
+  font-size: 30px;
+  font-weight: bold;
+}
 
 /*main-content all pages*/
 
@@ -181,8 +185,8 @@ svg {
 
 .section-services {
   text-align: center;
-  padding: 50px 80px;
-  letter-spacing: 2px;
+  /*  */
+  
 }
 
 .section-light {
@@ -190,9 +194,20 @@ svg {
   color: #333;
 }
 
+
 .section-dark {
   background-color: #333;
   color: white;
+}
+.section-light li, .section-dark li {
+  list-style: none;  
+}
+
+.section-light p, .section-dark p {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 8px;
+  font-family: "lobster";
 }
 
 .ptext {
@@ -283,7 +298,7 @@ svg {
 
 .section-index h4 {
   font-family: "Lobster", cursive;
-  font-size: 30px;
+  font-size: 26px;
   padding: 15px;
 }
 
@@ -295,7 +310,7 @@ svg {
   height: 50px;
   width: 400px;
   margin-top: 20px;
-  background-color: #Ac7b40
+  background-color: #Ac7b40;
 }
 
 button {
@@ -333,17 +348,29 @@ button {
 .pimg7 .ptext{
   margin-top: 51px;
 }
-.about-text {
+.about-text p, .about-first p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "alegreya Sans";
   line-height: 2em;
 }
 
-.about-first {
+.about-first p{
+  font-family: "Alegreya Sans";
   font-size: 16px;
   line-height: 2em;
 }
 
-.about-second {
-  font-size: 20px;
+.about-second p{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Alegreya Sans";
+  font-size: 24px;
+  line-height: 2em;
+  font-weight: 600;
+  font-style: italic;
 }
 
 /*services page */
@@ -355,6 +382,25 @@ button {
   font-weight: 400;
   line-height: 1.8em;
 }
+.section-services {
+  padding: 40px 70px;
+}
+.section-services li{
+  width: 70%;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 2px; 
+  line-height: 2em;
+}
+.section-services h3 {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+.section-services p {
+  font-size: 18px;
+}
+
 
 /*contact page */
 
@@ -410,6 +456,7 @@ button {
   .section-index h4 {
     font-size: 20px;
   }
+
 
   /*about.html specific*/
 
